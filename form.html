@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form</title>
+  </head>
+  <body>
+    <form>
+      <form action="formdata.html" method="post">
+      <input type="hidden" value="Anubhav Dahal" />
+      <label for="username">Name:</label>
+       <input
+        type="text"
+        placeholder="Enter your name"
+        id="username"
+        required
+        name="username"
+      /><br />
+     <label for="number">Phone Number:</label>
+      <input
+        type="number"
+        placeholder="Enter your number"
+        id="number"
+        value="9815343575"
+        readonly
+      /><br />
+      <label for="psw">Password:</label>
+      <input type="password" placeholder="Enter your password" id="psw" /><br />
+
+      <label for="email">Email:</label>
+      <input type="email" placeholder="Enter your Email" id="email" /><br />
+
+     <label for="">Gender</label>
+      <input type="radio" id="male" name="gender" />
+      <label for="male">Male</label>
+      <input type="radio" id="Female" name="gender" checked />
+      <label for="Female">Female</label><br />
+<input type="checkbox" id="check" />
+      <label for="check"> I agree with all the terms and conditions</label
+      ><br />
+<input type="range" /><br />
+
+      <input type="file" /><br />
+      <label for="textarea">Message</label>
+      <textarea
+        id="textarea"
+        placeholder="Enter your message here "
+        rows="5"
+        cols="30"
+      ></textarea
+      ><br />
+      <label for="faculty">Faculty</label>
+      <select name="" id="faculty">
+        <option value="">BCA</option>
+        <option value="">CSIT</option>
+        <option value="" disabled>BBS</option>
+        <option value="" selected>BIM</option>
+      </select>
+      <br />
+      <input type="submit" value="Login" />
+      <!-- <button>Signup</button> -->
+    </form>
+  </body>
+</html>
