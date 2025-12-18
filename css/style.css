@@ -1,0 +1,72 @@
+.mainconatiner .innercontainer p {
+  color: red;
+}
+.mainconatiner > p {
+  background-color: blue;
+}
+#loginbtn {
+  border: none;
+  background-color: blue;
+  color: white;
+  border-radius: 4px;
+  padding: 5px 10px;
+}
+
+#loginbtn:hover {
+  background-color: greenyellow;
+}
+#loginbtn:active {
+  background-color: rgb(18, 19, 18);
+}
+#clickmebtn:active {
+  background-color: blue;
+}
+#username:focus {
+  background-color: beige;
+  outline: none;
+  border: 1px solid gray;
+  color: red;
+  padding: 10px;
+}
+#unorderedlist li:first-child {
+  /* color: blue; */
+}
+#unorderedlist li:last-child {
+  /* color: rgb(0, 247, 255); */
+}
+#unorderedlist li:nth-child(odd) {
+  color: blue;
+}
+#vistitedexample:visited {
+  color: black;
+}
+
+
+#pseudoelement::first-line {
+  color: red;
+}
+#pseudoelement::first-letter {
+  font-size: 30px;
+  color: blue;
+}
+#pseudoelement::selection {
+  background-color: black;
+  color: white;
+}
+#pseudoelement::before {
+  content: "";
+  padding: 5px 10px;
+  border-radius: 100%;
+  background-color: blue;
+  margin-right: 10px;
+}
+#pseudoelement::after {
+  content: "after content";
+  font-style: italic;
+  color: gray;
+}
+#pseudoinput::placeholder {
+  font-size: 8px;
+  font-style: italic;
+  color: green;
+}
