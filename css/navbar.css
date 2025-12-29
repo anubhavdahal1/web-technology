@@ -33,4 +33,29 @@ header nav ul li {
 header nav ul li a {
   color: white;
   text-decoration: none;
+  transition: all 0.3 ease;
+}
+header nav ul li a:hover{
+  background-color: rgb(203, 136, 48);
+  color: black;
+  border-radius: 5px;
+  padding: 8px 10px;   
+}
+@media screen and(max-width:480px) {
+  header{
+    background-color: blue;
+  }
+ header nav{
+  display: block;
+  width:100%;
+  /* background-color: blueviolet; */
+
+ }
+ header nav ul{
+  display:block;
+ }
+  header nav ul li a{
+    padding:10px 0px;
+
+  }
 }
