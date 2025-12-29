@@ -1,0 +1,10 @@
+body {
+  background: rgba(139, 96, 96, 0.822) url(download.jpeg) no-repeat
+    fixed;
+    background-image: 50px;
+    background-size: cover;
+}
+p {
+  color: white;
+  font-size: 20px;
+}
