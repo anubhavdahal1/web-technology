@@ -4,7 +4,7 @@
   padding: 0;
 }
 header {
-  background-color: burlywood;
+  background-color: blue;
   display: flex;
   justify-content: space-between;
   color: white;
@@ -33,29 +33,28 @@ header nav ul li {
 header nav ul li a {
   color: white;
   text-decoration: none;
-  transition: all 0.3 ease;
+  padding: 0px 10px;
+  transition: all 2s ease;
 }
-header nav ul li a:hover{
-  background-color: rgb(203, 136, 48);
-  color: black;
+header nav ul li a:hover {
+  background-color: white;
+  color: blue;
   border-radius: 5px;
-  padding: 8px 10px;   
 }
-@media screen and(max-width:480px) {
-  header{
-    background-color: blue;
+@media (max-width: 480px) {
+  header {
+    display: block;
   }
- header nav{
-  display: block;
-  width:100%;
-  /* background-color: blueviolet; */
-
- }
- header nav ul{
-  display:block;
- }
-  header nav ul li a{
-    padding:10px 0px;
-
+  header nav {
+    display: block;
+    width: 100%;
+    display: none;
+    /* background-color: red; */
+  }
+  header nav ul {
+    display: block;
+  }
+  header nav ul li a {
+    padding: 10px 0px;
   }
 }
