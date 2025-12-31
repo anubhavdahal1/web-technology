@@ -1,0 +1,41 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: "Poppins",sans-serif;
+
+}
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#signupform{
+    width:400px;
+    display: flex;
+    flex-direction: column;
+    gap: 20PX;
+    border: 2px solid black;
+    border-radius:5px;
+    padding:10px;
+    background-color: rgb(238,237,237);
+}
+#signup label{
+    text-align: center;
+    font-size: 24;
+    font-weight: 700;
+    color: burlywood;
+}
+#signup fieldset{
+    border-radius: 5px;
+}
+#signupform fieldset legend{
+    color:bisque;
+    font-style: italic;
+}
+#signup fieldset input{
+    border: none;
+    outline:none;
+    width: 100%;
+    background-color: transparent;
+}
