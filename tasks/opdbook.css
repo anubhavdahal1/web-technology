@@ -1,0 +1,140 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+header {
+  display: flex;
+  margin-top: 20px;
+}
+header .logo {
+  width: 100px;
+  height: 100px;
+}
+header .logo img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+header .headertext p {
+  font-size: 20px;
+  color: green;
+}
+header .headertext p #firstp {
+  color: blue !important;
+}
+main {
+  margin-top: 40px;
+}
+main .mainimage {
+  display: flex;
+  align-items: flex-end;
+  position: relative;
+}
+main .mainimage .firstimage {
+  width: 350px;
+  height: 350px;
+  border: 20px solid blue;
+  border-radius: 100%;
+  z-index: 2;
+}
+main .mainimage .firstimage img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  border-radius: 100%;
+}
+main .mainimage .secondimage {
+  margin-left: -30px;
+  width: 150px;
+  height: 150px;
+  border: 15px solid blue;
+  border-radius: 100%;
+  z-index: 2;
+}
+main .mainimage .secondimage img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  border-radius: 100%;
+}
+main .mainimage .overlayimage {
+  width: 300px;
+  height: 300px;
+  position: absolute;
+  bottom: 30px;
+  left: 50%;
+  z-index: 1;
+  transform: rotate(160deg);
+}
+main .mainimage .overlayimage img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+form {
+  margin-top: 30px;
+}
+form fieldset {
+  border-radius: 5px;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+}
+form fieldset .formgroup {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  gap: 10px;
+  align-items: center;
+}
+form fieldset .formgroup input {
+  width: 90%;
+  border: none;
+  border-bottom: 2px dotted black;
+  outline: none;
+  height: 10px;
+}
+form fieldset .formgroup .subgroup {
+  display: flex;
+  align-items: center;
+  gap: 3px;
+  padding: 5px 0px;
+}
+footer {
+  margin-top: 20px;
+}
+footer .footertext {
+  background-color: blue;
+  color: white;
+  display: flex;
+  justify-content: center;
+}
+footer .footertext p,
+footer .footertext2 p {
+  max-width: 70%;
+  text-align: justify;
+  padding: 5px;
+}
+footer .footertext2 {
+  display: flex;
+  justify-content: center;
+  color: red;
+}
+footer .footertext2 i {
+  font-size: 40px;
+  color: radial-gradient(
+    circle at 30% 107%,
+    #fdf497 0%,
+    #fdf497 5%,
+    #fd5949 45%,
+    #d6249f 60%,
+    #285aeb 90%
+  );
+}

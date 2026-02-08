@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- <form onsubmit="ShowData(event)">
+      <input
+        type="text1"
+        placeholder="Enter your name"
+        id="username"
+        value="Anubhav"
+      />
+      <input type="radio" value="male" class="gender">
+      <label></label>
+      <input type="submit" />
+      <p id="result"></p>
+    </form> -->
+    <form onsubmit="radiobtn(event)">
+      <input type="radio" value="male" class="gender" name="Gander" />
+      <label> male </label>
+      <input type="radio" value="female" class="gender" name="Gander" />
+      <label> Female</label>
+      <input type="submit" />
+      <p id="result"></p>
+    </form>
+  </body>
+  <script src="dom.js"></script>
+</html>
