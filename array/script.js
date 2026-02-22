@@ -223,3 +223,33 @@ let datas = [10, 20, "RAM", "XYZ", "sita"];
 //   let time = `${hours}:${minutes}:${seconds}`;
 //   clock.innerText = time;
 // }, 1000);
+
+// string and string methods
+let college="Nihareeka";
+// console.log(typeof college);
+// console.log(college.length);
+// console.log(college.charAt(2));
+
+// let sub="web";
+// let concatvalue= college.concat(sub);
+// console.log(concatvalue);
+// console.log(college+sub);
+// console.log(college.endsWith("it"));
+// console.log(college.startsWith("n"));
+// console.log(college.toLowerCase());
+// console.log(college);
+// console.log(college.toUpperCase());
+// console.log(college);
+
+// console.log(college);
+// console.log(college.length);
+// let trimcollege= college.trim();
+// console.log(trimcollege.length);
+// console.log(trimcollege);
+
+// console.log(college.indexOf("a"));
+// console.log(college.lastIndexOf("a"))
+// console.log(college.substr(0,4))
+// console.log(college.substring(0,4))
+// console.log(college.includes("ee"))
+
