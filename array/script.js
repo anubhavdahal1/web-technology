@@ -225,7 +225,7 @@ let datas = [10, 20, "RAM", "XYZ", "sita"];
 // }, 1000);
 
 // string and string methods
-let college="Nihareeka";
+// let college="Nihareeka";
 // console.log(typeof college);
 // console.log(college.length);
 // console.log(college.charAt(2));
@@ -253,3 +253,44 @@ let college="Nihareeka";
 // console.log(college.substring(0,4))
 // console.log(college.includes("ee"))
 
+// error handling
+// alertme("hi");
+
+// function divide(a,b){
+// return a/b;
+// }
+// // console.log(divide(2,0));
+// divide(2,0);
+// alert("working");
+
+// santax
+// try{
+//     throw(    );
+// }
+// catch(error){
+
+// }
+// finally{
+
+// }
+
+
+// let a=5;
+// let b=5;
+// try{
+//     if(b==0)
+//     {
+//         throw("Dividing by zero");
+//     }
+//     c=a/b;
+//     console.log(c);
+// }
+// catch(error){
+//     console.log(error);
+// }
+// finally{
+//     console.log("clean up code goes here")
+// }
+
+
+// logical error

@@ -1,0 +1,38 @@
+*{
+  /* padding: 0%; */
+  margin: 0%;
+}
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(203, 199, 199);
+}
+#form1{
+  justify-content: center;
+  align-items: center;
+  height: 50%;
+  width: 50%;
+  border: 2px solid rgb(81, 94, 134);
+  border-radius: 10px;
+  padding: 20px 20px;
+}
+#form1 h2{
+  text-align: center;
+  padding-bottom: 20px;
+  color: rgb(42, 35, 233);
+}
+form{
+  padding: 10px 10px;
+  align-items: center;
+  justify-content: space-evenly;
+}
+#submit{
+  margin-top:10px;
+  background-color: rgb(25, 25, 186);
+  color: white;
+  border-radius: 20px;
+}
+#confirm{
+  padding: 0%;
+}
