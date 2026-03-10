@@ -274,7 +274,6 @@ let datas = [10, 20, "RAM", "XYZ", "sita"];
 
 // }
 
-
 // let a=5;
 // let b=5;
 // try{
@@ -292,5 +291,5 @@ let datas = [10, 20, "RAM", "XYZ", "sita"];
 //     console.log("clean up code goes here")
 // }
 
-
 // logical error
+
